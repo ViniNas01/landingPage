@@ -10,7 +10,7 @@ ul {
     list-style: none;
 }
 
-/* Posicionando os elementos no header */
+/** Posicionando os elementos no header */
 header {
     background-color: #1AB8EC;
     height: 80px;
@@ -40,7 +40,7 @@ nav {
     gap: 16px;
 }
 
-/* Estilizando os elementos */
+/** Estilizando os elementos */
 
 .logo span {
     color: white;
