@@ -134,6 +134,7 @@ main {
     justify-content: center;
     flex-direction: column;
 }
+
 .section h2 {
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
@@ -144,3 +145,4 @@ hr {
     width: 80%;
     border: 1px solid #1AB8EC;
 }
+
