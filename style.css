@@ -73,4 +73,74 @@ nav ul li {
     font-family: 'Quicksand', sans-serif;
 }
 
+/** ------------------------------------------- */
 
+main {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.contentHero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+
+    height: calc(90vh - 80px);
+}
+
+.contentHero .image {
+    background-color: #1AB8EC;
+    border-radius: 8px;
+    width: 424px;
+    height: 270px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentHero .blockText {
+    max-width: 424px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    text-align: justify;
+    align-items: center;
+}
+
+.blockText h1 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.blockText h2 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.blockText button {
+    color: white;
+    background-color: #1AB8EC;
+    padding: 7px 100px;
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section h2 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid #1AB8EC;
+}
