@@ -3,3 +3,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+ul {
+    list-style: none;
+}
+
+
+header {
+    background-color: #1AB8EC;
+    height: 80px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    max-width: 1040px;
+    height: 100%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 18px;
+}
+
+.links ul {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+
